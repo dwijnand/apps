@@ -18,7 +18,7 @@
       ]
     },
     {
-      "versionRange": "(,2.max]",
+      "versionRange": "(2.13.0,2.max]",
       "mainClass": "scala.tools.nsc.Main",
       "dependencies": [
         "org.scala-lang:scala-compiler:latest.stable"
