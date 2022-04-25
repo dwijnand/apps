@@ -11,6 +11,13 @@
   },
   "versionOverrides": [
     {
+      "versionRange": "(,2.12.max]",
+      "mainClass": "scala.tools.nsc.ScalaDoc",
+      "dependencies": [
+        "org.scala-lang:scala-compiler:2.12+"
+      ]
+    },
+    {
       "versionRange": "(,2.max]",
       "mainClass": "scala.tools.nsc.ScalaDoc",
       "dependencies": [
